@@ -13,7 +13,7 @@ my $plugin = __PACKAGE__->new({
     author_name => 'masiuchi',
     author_link => 'https://github.com/masiuchi/',
     plugin_link => 'https://github.com/masiuchi/mt-plugin-fix-wxri/',
-    description => 'Avoid an error of WXRImporter.',
+    description => 'Avoid an error of WXR Importer 1.11.',
     init_app    => \&_init_app,
 });
 MT->add_plugin( $plugin );
