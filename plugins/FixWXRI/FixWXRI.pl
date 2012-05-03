@@ -10,6 +10,7 @@ my $plugin = __PACKAGE__->new({
     name        => $NAME,
     id          => lc $NAME,
     key         => lc $NAME,
+    version     => $VER,
     author_name => 'masiuchi',
     author_link => 'https://github.com/masiuchi/',
     plugin_link => 'https://github.com/masiuchi/mt-plugin-fix-wxri/',
